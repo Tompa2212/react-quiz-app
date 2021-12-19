@@ -63,6 +63,10 @@ const Wrapper = styled.form`
   background: #fff;
   border-radius: 1rem;
 
+  @media screen and (max-width: 80rem) {
+    padding: 4rem 0rem;
+  }
+
   .quiz-logo {
     position: absolute;
     right: 0;
@@ -132,6 +136,7 @@ const Wrapper = styled.form`
     cursor: pointer;
     display: block;
     margin-left: auto;
+    margin-bottom: 2rem;
     padding: 0.9rem 2.5rem;
     background: var(--btn-color);
     border: transparent;

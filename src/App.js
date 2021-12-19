@@ -17,4 +17,8 @@ export default App;
 const Wrapper = styled.section`
   width: 100%;
   max-width: 50rem;
+
+  @media screen and (max-width: 56rem) {
+    padding: 0rem 3rem;
+  }
 `;
