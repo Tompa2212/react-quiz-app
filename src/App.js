@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { QuizContext } from "./context/context";
 import Form from "./components/Form";
 
 const App = () => {

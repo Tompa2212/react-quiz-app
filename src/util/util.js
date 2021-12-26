@@ -8,6 +8,8 @@ const formatData = (countries) => {
     ) {
       return country;
     }
+
+    return false;
   });
 
   countries = countries.map((country) => {

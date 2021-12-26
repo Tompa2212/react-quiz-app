@@ -125,9 +125,9 @@ const QuizProvider = ({ children }) => {
     setQuestions([]);
     fetchData(countries_url);
   };
-
   useEffect(() => {
     fetchData(countries_url);
+    // eslint-disable-next-line
   }, []);
   return (
     <QuizContext.Provider

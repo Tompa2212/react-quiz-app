@@ -21,7 +21,7 @@ const Form = () => {
       <Wrapper>
         <img className="quiz-logo" src={quiz_logo} alt="quiz logo"></img>
         <p className="question">{questions[q_index].question}</p>
-        {flag && <img className="flag" src={flag} />}
+        {flag && <img className="flag" src={flag} alt="flag" />}
 
         <div>
           {questions[q_index].offered.map((item, index) => {
